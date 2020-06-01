@@ -4,6 +4,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class tuvan extends CI_Controller {
 	public function index()
 	{
-        $this->load->view('layout/index-tuvan');
+        $this->load->view('tuvan/index-tuvan');
 	}
 }
